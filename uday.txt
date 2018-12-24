@@ -1,1 +1,12 @@
-Test by uday as on 20 dec
+For put username and pwd in local system for commit
+
+$ git config --global credential.helper store
+$ git push http://example.com/repo.git
+Username: <type your username>
+Password: <type your password>
+
+
+
+--- Git revert changes ----
+
+git reset --hard origin/master
